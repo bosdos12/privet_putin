@@ -86,9 +86,6 @@ def killTheRobot(distance):
             sleep(0.1)
         youAreALegend()
 
-
-
-
     system("cls")
     print("PUTIN, THERE IS AN ONCOMING ALIEN ATTACK TO MOTHER RUSSIA, PLEASE LAUNCH A RAKYET")
     input("Click [ENTER] to give permission..")
