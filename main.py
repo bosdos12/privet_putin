@@ -1,18 +1,11 @@
 """
-(C) 2021, ADAK CELINA
-this application is free to use
-but selling it, publishing it, modifying or copying it without permission is not accepted,
-the required legal action will be taken,
-all rights are reserved (R).
-
-contact me for app and license info - celinaadak@gmail.com
+Written in: wednesday, february, 2/5/2021 
+Author: Adak Celina
 """
-
 from os import system
 from time import sleep
 
 isPlayingTheGame = True
-
 
 def youSuck():
     killcount = 5
@@ -26,7 +19,7 @@ def youSuck():
     system("start https://www.youtube.com/watch?v=rIos0ya-yss")
 
 def youAreALegend():
-    print("Putin, daddy, papi, omg u just saved the world, fuck me now <3")
+    print("GG")
     sleep(1)
     hmm = 3
     while hmm > 0:
@@ -34,23 +27,12 @@ def youAreALegend():
         hmm -= 1
         sleep(1)
     system("cls")
-
     print("    ▀█▀░░░█░█░░░▄▀█░░░█▄░█░░░█▄▀░░░█▀░░░░░░█▀▄░░░▄▀█░░░█▀▄░░░█▀▄░░░█▄█░░░░░▀░░░▀▄")
     print("    ░█░░░░█▀█░░░█▀█░░░█░▀█░░░█░█░░░▄█░░█░░░█▄▀░░░█▀█░░░█▄▀░░░█▄▀░░░░█░░░░░░▄░░░▄▀")
 
     input("\nPRESS [ENTER] TO QUIT THE APPLICATION")
     system("start https://youtu.be/U06jlgpMtQs")
     quit()
-
-
-
-
-
-
-
-
-
-
 
 def killTheRobot(distance):
     def launchMissile():
@@ -108,7 +90,7 @@ def killTheRobot(distance):
 
 
     system("cls")
-    print("PRIVJET PUTIN, THERE IS AN ONCOMING ALIEN ATTACK TO MOTHER RUSSIA, PLEASE LAUNCH A RAKYET")
+    print("PUTIN, THERE IS AN ONCOMING ALIEN ATTACK TO MOTHER RUSSIA, PLEASE LAUNCH A RAKYET")
     input("Click [ENTER] to give permission..")
     print("PERMISION IS GIVEN, WAIT A BIT FOR THE LAUNCH INFO AND LAUNCH")
     sleep(5)
@@ -126,18 +108,15 @@ def killTheRobot(distance):
             launchMissile()
         else:
             system("cls")
-            print("RETARD ARSCHWASSER, HOW ARE U THE PRESIDENT BUT YOU DONT KNOW 45-2, THE WORLD IS ENDING BECAUSE OF YOU, RETARD..")
+            print("lots of bad words here, had to remove it for github haha")
             youSuck()
     except:
         system("cls")
-        print("YOU STUPID IMBECILE, U SHOULDVE ENTERED A NUMBER, RUSSIA IS GOING TO DIW NOW, CYKA BLYAT")
+        print("lots of bad words here, had to remove it for github haha")
         youSuck()
 
-
-
-
 while isPlayingTheGame:
-    system("cls") #killTheRobot(20)
+    system("cls")
     print("     ░██╗░░░░░░░██╗██████╗░██╗████████╗███████╗░░░░░░░░░░░░░░░██████╗████████╗░█████╗░██████╗░████████╗██╗██╗")
     print("     ░██║░░██╗░░██║██╔══██╗██║╚══██╔══╝██╔════╝░░░░░░░░░░░░░░██╔════╝╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝╚█║╚█║")
     print("     ░╚██╗████╗██╔╝██████╔╝██║░░░██║░░░█████╗░░░░░░░░░░░░░░░░╚█████╗░░░░██║░░░███████║██████╔╝░░░██║░░░░╚╝░╚╝")
@@ -163,17 +142,6 @@ while isPlayingTheGame:
         print(f"{loadingShower}\n%{str(curLoadStatus)}\n---")
         sleep(0.4)
 
-
     if strORno == "start" or strORno == "Start" or strORno == "START":
         isPlayingTheGame = False
         killTheRobot(40)
-
-
-
-
-
-
-'''
-                             
-
-'''
